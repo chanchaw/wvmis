@@ -1,0 +1,142 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true' rs:ReshapeName='DSRowset1_133'>
+		<s:AttributeType name='B_ObjectID' rs:number='1' rs:writeunknown='true' rs:basecatalog='WVAccount' rs:basetable='G_BL'
+			 rs:basecolumn='B_ObjectID' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_BID' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_BID'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='10'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_BillName' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_BillName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_MainTable' rs:number='4' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_MainTable'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DetailTable' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_DetailTable'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DraftMainTable' rs:number='6' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_DraftMainTable'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DraftDetailTable' rs:number='7' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_DraftDetailTable'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_MainSQL' rs:number='8' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_MainSQL'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2147483647' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DraftMainSQL' rs:number='9' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_DraftMainSQL'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2147483647' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DetailSQL' rs:number='10' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_DetailSQL'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2147483647' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DraftDetailSQL' rs:number='11' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_DraftDetailSQL'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2147483647' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FormName' rs:number='12' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_FormName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_WindowState' rs:number='13' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_WindowState'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Width' rs:number='14' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_Width'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Height' rs:number='15' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_Height'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ReportObject' rs:number='16' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_ReportObject'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_MenuObject' rs:number='17' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_MenuObject'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_SearchSQL' rs:number='18' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_SearchSQL'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2147483647' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_UseType' rs:number='19' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_UseType'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DeleteNullDetail' rs:number='20' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_DeleteNullDetail'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_InOut' rs:number='21' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_InOut'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FilterSQL_Bill' rs:number='22' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_FilterSQL_Bill'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='500'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FilterSQL_Detail' rs:number='23' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_FilterSQL_Detail'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='500'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_CreateOperator' rs:number='24' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_CreateOperator'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_TimeForbid' rs:number='25' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BL' rs:basecolumn='B_TimeForbid'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row B_ObjectID='12B013' B_BID='CLC' B_BillName='色布单据 - 色布发货' B_MainTable='G_BillColor' B_DetailTable='G_BillDetailColor'
+		 B_DraftMainTable='G_DraftBillColor' B_DraftDetailTable='G_DraftBillDetailColor' B_MainSQL='SELECT * FROM G_BillColor WHERE 1=1'
+		 B_DraftMainSQL='SELECT * FROM G_DraftBillColor WHERE 1=1' B_DetailSQL='SELECT G_BillDetailColor.B_ItemIDB,G_BillDetailColor.B_GoodsNameAlias,
+G_BillDetailColor.B_Width,G_BillDetailColor.B_weight,
+G_BillDetailColor.B_Color,G_BillDetailColor.B_SeHao,
+A.B_Alias, A.B_PS ,A.B_GJ, A.B_MS,
+G_BillDetailColor.B_MemoDetail,
+G_BillDetailColor.B_ID,G_BillDetailColor.B_ItemID
+FROM G_BillDetailColor
+
+LEFT OUTER JOIN usv_JRKBillFPStatistics A
+ON G_BillDetailColor.B_ItemID=A.B_ID
+
+
+WHERE 1=1'
+		 B_DraftDetailSQL='SELECT G_DraftBillDetailColor.B_ItemIDB,G_DraftBillDetailColor.B_GoodsNameAlias,
+G_DraftBillDetailColor.B_Width,G_DraftBillDetailColor.B_weight,
+G_DraftBillDetailColor.B_Color,G_DraftBillDetailColor.B_SeHao,
+A.B_Alias, A.B_PS ,A.B_GJ, A.B_MS,
+G_DraftBillDetailColor.B_MemoDetail,
+G_DraftBillDetailColor.B_ID,G_DraftBillDetailColor.B_ItemID
+FROM G_DraftBillDetailColor
+
+LEFT OUTER JOIN usv_JRKBillFPStatistics A
+ON G_DraftBillDetailColor.B_ItemID=A.B_ID
+
+
+WHERE 1=1'
+		 B_FormName='frmModBLColorCloth' B_WindowState='0' B_Width='11000' B_Height='7000' B_ReportObject='' B_MenuObject=''
+		 B_UseType='0' B_DeleteNullDetail='1' B_InOut='0'/>
+</rs:data>
+</xml>

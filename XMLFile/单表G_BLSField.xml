@@ -1,0 +1,1243 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true' rs:ReshapeName='DSRowset1_13'>
+		<s:AttributeType name='B_ItemID' rs:number='1' rs:basecatalog='WVAccount' rs:basetable='G_BLSField' rs:basecolumn='B_ItemID'
+			 rs:keycolumn='true' rs:autoincrement='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ObjectID' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_ObjectID'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FieldName' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_FieldName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_CnName' rs:number='4' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_CnName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_GridWidth' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_GridWidth'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Alignment' rs:number='6' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_Alignment'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FieldFormat' rs:number='7' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_FieldFormat'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_BackColor' rs:number='8' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_BackColor'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ForeColor' rs:number='9' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_ForeColor'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Split' rs:number='10' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_Split'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Locked' rs:number='11' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSField' rs:basecolumn='B_Locked'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row B_ItemID='2197' B_ObjectID='11S004' B_FieldName='B_OrderCode' B_CnName='订单号' B_GridWidth='795'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2198' B_ObjectID='11S004' B_FieldName='B_GoodsID' B_CnName='品名' B_GridWidth='1995' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2199' B_ObjectID='11S004' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2200' B_ObjectID='11S004' B_FieldName='B_Weight' B_CnName='克重' B_GridWidth='795' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2201' B_ObjectID='11S004' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='1500' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2202' B_ObjectID='11S004' B_FieldName='B_HX' B_CnName='花型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2203' B_ObjectID='11S004' B_FieldName='B_PatternCode' B_CnName='色号/花号' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2204' B_ObjectID='11S004' B_FieldName='B_Meter' B_CnName='米数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2205' B_ObjectID='11S004' B_FieldName='B_KG' B_CnName='公斤数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2206' B_ObjectID='11S004' B_FieldName='B_Qty' B_CnName='码数' B_GridWidth='1200' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2207' B_ObjectID='11S004' B_FieldName='B_Price' B_CnName='单价' B_GridWidth='795' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2208' B_ObjectID='11S004' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='1200' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2209' B_ObjectID='11S004' B_FieldName='B_BackMaterial' B_CnName='计价单位' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2210' B_ObjectID='11S004' B_FieldName='B_MemoDetail' B_CnName='后道工序' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2211' B_ObjectID='11S004' B_FieldName='B_Hex' B_CnName='颜色标识' B_GridWidth='825' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2227' B_ObjectID='11S006' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1425' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2228' B_ObjectID='11S006' B_FieldName='B_GoodsNameAlias' B_CnName='品名' B_GridWidth='1515'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2229' B_ObjectID='11S006' B_FieldName='B_Goodsid' B_CnName='白坯名称' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2230' B_ObjectID='11S006' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2231' B_ObjectID='11S006' B_FieldName='B_UnitWeight' B_CnName='克重' B_GridWidth='1875' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2232' B_ObjectID='11S006' B_FieldName='B_BoxQty' B_CnName='数量KG' B_GridWidth='1500' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2233' B_ObjectID='11S006' B_FieldName='B_print' B_CnName='打印白坯流转卡次数' B_GridWidth='2130'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2234' B_ObjectID='11S006' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2244' B_ObjectID='11S007' B_FieldName='B_Breed' B_CnName='投料品种' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2245' B_ObjectID='11S007' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='2115' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2246' B_ObjectID='11S007' B_FieldName='B_GoodsNameAlias' B_CnName='编号' B_GridWidth='1740'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2247' B_ObjectID='11S007' B_FieldName='B_GoodsName' B_CnName='名称' B_GridWidth='2310' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2248' B_ObjectID='11S007' B_FieldName='B_Suppliers' B_CnName='供应商' B_GridWidth='1440'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2249' B_ObjectID='11S007' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2250' B_ObjectID='11S007' B_FieldName='B_UnitWeight' B_CnName='克重' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2251' B_ObjectID='11S007' B_FieldName='B_StorageWay' B_CnName='入库方式' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2252' B_ObjectID='11S007' B_FieldName='B_TransfersItemIDB' B_CnName='调拨单号' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2253' B_ObjectID='11S007' B_FieldName='B_TransfersSuppliers' B_CnName='调拨供应商' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2254' B_ObjectID='11S007' B_FieldName='B_BreedNum' B_CnName='品种数量' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2255' B_ObjectID='11S005' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1425' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2256' B_ObjectID='11S005' B_FieldName='B_GoodsNameAlias' B_CnName='品名' B_GridWidth='1515'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2258' B_ObjectID='11S005' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2259' B_ObjectID='11S005' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1425' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2260' B_ObjectID='11S005' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='1500' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2261' B_ObjectID='11S005' B_FieldName='B_Hex' B_CnName='颜色标识' B_GridWidth='1305' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2262' B_ObjectID='11S005' B_FieldName='B_Producer' B_CnName='花型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2263' B_ObjectID='11S005' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2264' B_ObjectID='11S005' B_FieldName='B_meter' B_CnName='米数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2265' B_ObjectID='11S005' B_FieldName='B_KG' B_CnName='公斤数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2266' B_ObjectID='11S005' B_FieldName='B_depart' B_CnName='染厂' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2267' B_ObjectID='11S005' B_FieldName='B_Department' B_CnName='染厂跟单' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2268' B_ObjectID='11S005' B_FieldName='B_departdate' B_CnName='染厂交期' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2269' B_ObjectID='11S004' B_FieldName='B_PlateMake' B_CnName='制版费' B_GridWidth='795'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2270' B_ObjectID='11S004' B_FieldName='B_Sample' B_CnName='中样费
+' B_GridWidth='795' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2271' B_ObjectID='11S006' B_FieldName='B_Maohight' B_CnName='毛高' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2274' B_ObjectID='11S008' B_FieldName='B_EDP' B_CnName='品级' B_GridWidth='800' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2275' B_ObjectID='11S008' B_FieldName='B_ClientName' B_CnName='客户' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2276' B_ObjectID='11S008' B_FieldName='B_PinM' B_CnName='品名' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2277' B_ObjectID='11S008' B_FieldName='B_MenFuMiChang' B_CnName='门幅克重' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2278' B_ObjectID='11S008' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2279' B_ObjectID='11S008' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2280' B_ObjectID='11S008' B_FieldName='B_DTRK' B_CnName='入库时间' B_GridWidth='1900' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2281' B_ObjectID='11S008' B_FieldName='B_KQty' B_CnName='米数' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2282' B_ObjectID='11S008' B_FieldName='B_Qty' B_CnName='毛重' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2283' B_ObjectID='11S008' B_FieldName='B_PH2' B_CnName='匹号' B_GridWidth='600' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2284' B_ObjectID='11S008' B_FieldName='B_Number' B_CnName='匹数' B_GridWidth='700' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2285' B_ObjectID='11S008' B_FieldName='B_CheckID' B_CnName='勾选' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2297' B_ObjectID='11S007' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2298' B_ObjectID='11S007' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2299' B_ObjectID='11S009' B_FieldName='B_time' B_CnName='申请时间' B_GridWidth='1485' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2300' B_ObjectID='11S009' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2301' B_ObjectID='11S009' B_FieldName='B_Breed' B_CnName='类型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2302' B_ObjectID='11S009' B_FieldName='B_storageway' B_CnName='单据类型' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2303' B_ObjectID='11S009' B_FieldName='B_GoodsName' B_CnName='品名' B_GridWidth='1380' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2304' B_ObjectID='11S009' B_FieldName='B_Width' B_CnName='规格' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2305' B_ObjectID='11S009' B_FieldName='B_clientname' B_CnName='供应商' B_GridWidth='1905'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2306' B_ObjectID='11S009' B_FieldName='B_kg' B_CnName='订单公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2307' B_ObjectID='11S009' B_FieldName='B_Meter' B_CnName='订单米数' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2308' B_ObjectID='11S009' B_FieldName='B_Qty' B_CnName='订单码数' B_GridWidth='930' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2309' B_ObjectID='11S009' B_FieldName='B_KG01' B_CnName='申请公斤' B_GridWidth='1215' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2310' B_ObjectID='11S009' B_FieldName='B_KG02' B_CnName='白坯计划公斤' B_GridWidth='1275'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2311' B_ObjectID='11S009' B_FieldName='B_logo' B_CnName='是否执行' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2312' B_ObjectID='11S009' B_FieldName='B_transfersitemidb' B_CnName='调拨单号' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2313' B_ObjectID='11S010' B_FieldName='B_ClientName' B_CnName='供应商' B_GridWidth='1485'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2314' B_ObjectID='11S010' B_FieldName='B_pactCode' B_CnName='合同号' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2315' B_ObjectID='11S010' B_FieldName='B_itemidb' B_CnName='定单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2316' B_ObjectID='11S010' B_FieldName='B_GoodsNameAlias' B_CnName='原料名称' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2317' B_ObjectID='11S010' B_FieldName='B_Name' B_CnName='原料名称' B_GridWidth='1380' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2318' B_ObjectID='11S010' B_FieldName='B_Width' B_CnName='规格' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2319' B_ObjectID='11S010' B_FieldName='B_BreedNum' B_CnName='数量' B_GridWidth='1905' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2320' B_ObjectID='11S010' B_FieldName='B_KG' B_CnName='订单公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2321' B_ObjectID='11S010' B_FieldName='B_Meter' B_CnName='订单米数' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2322' B_ObjectID='11S010' B_FieldName='B_Qty' B_CnName='订单码数' B_GridWidth='930' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2323' B_ObjectID='11S010' B_FieldName='B_KG01' B_CnName='申请公斤' B_GridWidth='1215' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2324' B_ObjectID='11S010' B_FieldName='B_KG02' B_CnName='白坯计划公斤' B_GridWidth='1275'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2325' B_ObjectID='11S010' B_FieldName='B_KG03' B_CnName='原料采购公斤' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2326' B_ObjectID='11S010' B_FieldName='B_KG04' B_CnName='原料调拨公斤' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2327' B_ObjectID='11S010' B_FieldName='B_KG05' B_CnName='白坯采购公斤' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2328' B_ObjectID='11S010' B_FieldName='B_KG06' B_CnName='白坯调拨公斤' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='2329' B_ObjectID='11S010' B_FieldName='B_creatime' B_CnName='申请时间' B_GridWidth='1590'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3299' B_ObjectID='11S010' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3300' B_ObjectID='11s011' B_FieldName='B_HEX' B_CnName='颜色示例' B_GridWidth='885' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3301' B_ObjectID='11s011' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3302' B_ObjectID='11s011' B_FieldName='B_depart' B_CnName='染厂' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3303' B_ObjectID='11s011' B_FieldName='B_ColorName' B_CnName='色布名称' B_GridWidth='1245'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3304' B_ObjectID='11s011' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1260'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3305' B_ObjectID='11s011' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='990' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3306' B_ObjectID='11s011' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1185' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3307' B_ObjectID='11s011' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='660' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3308' B_ObjectID='11s011' B_FieldName='B_Weight' B_CnName='公斤' B_GridWidth='870' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3309' B_ObjectID='11s011' B_FieldName='B_Meter' B_CnName='米数' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3310' B_ObjectID='11s011' B_FieldName='B_Ma' B_CnName='码数' B_GridWidth='1110' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3311' B_ObjectID='11s011' B_FieldName='B_ClientName' B_CnName='客户名' B_GridWidth='1200'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3312' B_ObjectID='11s011' B_FieldName='B_DeliveryNote' B_CnName='送货单号' B_GridWidth='1125'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3313' B_ObjectID='11s011' B_FieldName='B_type' B_CnName='加工类型' B_GridWidth='1140' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='3314' B_ObjectID='11s011' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='810' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4315' B_ObjectID='11S012' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4316' B_ObjectID='11S012' B_FieldName='B_suppliers' B_CnName='供应商' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4317' B_ObjectID='11S012' B_FieldName='B_ColorName' B_CnName='原料名称' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4318' B_ObjectID='11S012' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4319' B_ObjectID='11S012' B_FieldName='B_qty' B_CnName='数量' B_GridWidth='2775' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4320' B_ObjectID='11S012' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4321' B_ObjectID='11S012' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4322' B_ObjectID='11S012' B_FieldName='B_Cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4323' B_ObjectID='11S012' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1725' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4324' B_ObjectID='11S012' B_FieldName='B_process' B_CnName='加工户' B_GridWidth='2385' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4345' B_ObjectID='11S013' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='1995'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4346' B_ObjectID='11S013' B_FieldName='B_date' B_CnName='单据日期' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4347' B_ObjectID='11S013' B_FieldName='B_OrderCode' B_CnName='定单号' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4348' B_ObjectID='11S013' B_FieldName='B_ClientName' B_CnName='供应商' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4349' B_ObjectID='11S013' B_FieldName='B_Name' B_CnName='原料名称' B_GridWidth='1605' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4350' B_ObjectID='11S013' B_FieldName='B_Specification' B_CnName='规格' B_GridWidth='1380'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4351' B_ObjectID='11S013' B_FieldName='B_qty1' B_CnName='定单采购数量' B_GridWidth='1710'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4352' B_ObjectID='11S013' B_FieldName='B_price1' B_CnName='参考单价' B_GridWidth='1455'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4353' B_ObjectID='11S013' B_FieldName='B_Qty' B_CnName='到货数量' B_GridWidth='1635' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4354' B_ObjectID='11S013' B_FieldName='B_Price' B_CnName='到货单价' B_GridWidth='1575'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4355' B_ObjectID='11S013' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='1905' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4356' B_ObjectID='11S013' B_FieldName='B_DateLast' B_CnName='最后到货时间' B_GridWidth='4080'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4357' B_ObjectID='11S013' B_FieldName='B_instructions' B_CnName='说明' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4371' B_ObjectID='11S014' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4372' B_ObjectID='11S014' B_FieldName='B_supplier' B_CnName='供应商' B_GridWidth='1860'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4373' B_ObjectID='11S014' B_FieldName='B_whiteName' B_CnName='白坯名称' B_GridWidth='1995'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4374' B_ObjectID='11S014' B_FieldName='B_width' B_CnName='门幅' B_GridWidth='1740' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4375' B_ObjectID='11S014' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1770' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4376' B_ObjectID='11S014' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1680' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4377' B_ObjectID='11S014' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1515' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4378' B_ObjectID='11S014' B_FieldName='B_cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4379' B_ObjectID='11S014' B_FieldName='B_process' B_CnName='外发染厂' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4380' B_ObjectID='11S014' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4391' B_ObjectID='11S015' B_FieldName='B_DateCreate' B_CnName='入库时间' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4392' B_ObjectID='11S015' B_FieldName='B_CodeID' B_CnName='入库单据' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4393' B_ObjectID='11S015' B_FieldName='B_PS' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4394' B_ObjectID='11S015' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4395' B_ObjectID='11S015' B_FieldName='B_Shipment' B_CnName='运方' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4396' B_ObjectID='11S015' B_FieldName='B_PNumber' B_CnName='车牌号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4397' B_ObjectID='11S015' B_FieldName='B_payment' B_CnName='结算方式' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4398' B_ObjectID='11S015' B_FieldName='B_Freight' B_CnName='运费' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4399' B_ObjectID='11S015' B_FieldName='B_hand' B_CnName='装卸方' B_GridWidth='3330' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4410' B_ObjectID='11S016' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4411' B_ObjectID='11S016' B_FieldName='B_ClientName' B_CnName='供应商' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4412' B_ObjectID='11S016' B_FieldName='B_Name' B_CnName='白坯名称' B_GridWidth='1335' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4413' B_ObjectID='11S016' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1485' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4414' B_ObjectID='11S016' B_FieldName='B_UnitWeight' B_CnName='克重' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4415' B_ObjectID='11S016' B_FieldName='B_pishu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4416' B_ObjectID='11S016' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4417' B_ObjectID='11S016' B_FieldName='B_cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4418' B_ObjectID='11S016' B_FieldName='B_Supplier' B_CnName='外发加工' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4419' B_ObjectID='11S016' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2370' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4435' B_ObjectID='11S017' B_FieldName='B_DateCreate' B_CnName='入库时间' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4436' B_ObjectID='11S017' B_FieldName='B_CodeID' B_CnName='入库单据' B_GridWidth='1770'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4437' B_ObjectID='11S017' B_FieldName='B_PS' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4438' B_ObjectID='11S017' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4439' B_ObjectID='11S017' B_FieldName='B_meter' B_CnName='米数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4440' B_ObjectID='11S017' B_FieldName='B_BoxQty' B_CnName='码数' B_GridWidth='900' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4441' B_ObjectID='11S017' B_FieldName='B_Shipment' B_CnName='运方' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4442' B_ObjectID='11S017' B_FieldName='B_PNumber' B_CnName='车牌号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4443' B_ObjectID='11S017' B_FieldName='B_payment' B_CnName='结算方式' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4444' B_ObjectID='11S017' B_FieldName='B_Freight' B_CnName='运费' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4445' B_ObjectID='11S017' B_FieldName='B_hand' B_CnName='装卸方' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4458' B_ObjectID='11S018' B_FieldName='B_Hex' B_CnName='颜色事例' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4459' B_ObjectID='11S018' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4460' B_ObjectID='11S018' B_FieldName='B_ClientName' B_CnName='染厂' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4461' B_ObjectID='11S018' B_FieldName='B_GoodsNameAlias' B_CnName='色布名称' B_GridWidth='1875'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4462' B_ObjectID='11S018' B_FieldName='B_Specification' B_CnName='规格' B_GridWidth='1680'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4463' B_ObjectID='11S018' B_FieldName='B_Name' B_CnName='颜色' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4464' B_ObjectID='11S018' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4465' B_ObjectID='11S018' B_FieldName='B_PS' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4466' B_ObjectID='11S018' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4467' B_ObjectID='11S018' B_FieldName='B_meter' B_CnName='米数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4468' B_ObjectID='11S018' B_FieldName='B_BoxQty' B_CnName='码数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4469' B_ObjectID='11S018' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4480' B_ObjectID='11S019' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4481' B_ObjectID='11S019' B_FieldName='B_ClientName' B_CnName='供应商' B_GridWidth='1890'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4482' B_ObjectID='11S019' B_FieldName='B_Name' B_CnName='白坯名称' B_GridWidth='1905' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4483' B_ObjectID='11S019' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='2670' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4484' B_ObjectID='11S019' B_FieldName='B_UnitWeight' B_CnName='克重' B_GridWidth='1875' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4485' B_ObjectID='11S019' B_FieldName='B_pishu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4486' B_ObjectID='11S019' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4487' B_ObjectID='11S019' B_FieldName='B_cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4488' B_ObjectID='11S019' B_FieldName='B_Supplier' B_CnName='外发加工' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='4489' B_ObjectID='11S019' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5391' B_ObjectID='11S020' B_FieldName='B_DateCreate' B_CnName='入库日期' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5392' B_ObjectID='11S020' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='2085'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5393' B_ObjectID='11S020' B_FieldName='B_qty' B_CnName='数量' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5394' B_ObjectID='11S020' B_FieldName='B_sum' B_CnName='金额' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5395' B_ObjectID='11S020' B_FieldName='B_Shipment' B_CnName='运方' B_GridWidth='1230' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5396' B_ObjectID='11S020' B_FieldName='B_freightNum' B_CnName='运费' B_GridWidth='1455' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5397' B_ObjectID='11S020' B_FieldName='B_HandNum' B_CnName='搬运费' B_GridWidth='1275' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5398' B_ObjectID='11S020' B_FieldName='B_CarNum' B_CnName='车牌号' B_GridWidth='1590' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5399' B_ObjectID='11S020' B_FieldName='B_payment' B_CnName='结算方式' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5400' B_ObjectID='11S020' B_FieldName='B_hand' B_CnName='装卸方' B_GridWidth='1620' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5411' B_ObjectID='11S021' B_FieldName='B_OrderCode' B_CnName='订单号' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5412' B_ObjectID='11S021' B_FieldName='B_ClientName' B_CnName='供应商' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5413' B_ObjectID='11S021' B_FieldName='B_Name' B_CnName='原料名称' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5414' B_ObjectID='11S021' B_FieldName='B_Specification' B_CnName='规格' B_GridWidth='1410'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5415' B_ObjectID='11S021' B_FieldName='B_Qty' B_CnName='数量' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5416' B_ObjectID='11S021' B_FieldName='B_Price' B_CnName='价格' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5417' B_ObjectID='11S021' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5418' B_ObjectID='11S021' B_FieldName='B_LotNumber' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5419' B_ObjectID='11S021' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5420' B_ObjectID='11S021' B_FieldName='B_client' B_CnName='加工户' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5431' B_ObjectID='11S022' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5432' B_ObjectID='11S022' B_FieldName='B_GoodsNameAlias' B_CnName='白坯名称' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5433' B_ObjectID='11S022' B_FieldName='B_MaoHight' B_CnName='毛高' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5434' B_ObjectID='11S022' B_FieldName='B_CastQty' B_CnName='投份/针数' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5435' B_ObjectID='11S022' B_FieldName='B_Maospecification' B_CnName='毛丝规格' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5436' B_ObjectID='11S022' B_FieldName='B_AB' B_CnName='AB面' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5437' B_ObjectID='11S022' B_FieldName='B_Machine' B_CnName='机台号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5438' B_ObjectID='11S022' B_FieldName='B_username' B_CnName='打卷职工' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5439' B_ObjectID='11S022' B_FieldName='B_KG' B_CnName='数量' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5440' B_ObjectID='11S022' B_FieldName='B_date' B_CnName='时间' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5441' B_ObjectID='11S022' B_FieldName='B_Memo' B_CnName='次布原因' B_GridWidth='3630' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5453' B_ObjectID='11S023' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5454' B_ObjectID='11S023' B_FieldName='B_name' B_CnName='白坯名称' B_GridWidth='1350' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5455' B_ObjectID='11S023' B_FieldName='B_MaoHight' B_CnName='毛高' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5456' B_ObjectID='11S023' B_FieldName='B_CastQty' B_CnName='投份/针数' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5457' B_ObjectID='11S023' B_FieldName='B_Maospecification' B_CnName='毛丝规格' B_GridWidth='1110'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5458' B_ObjectID='11S023' B_FieldName='B_Boxqty' B_CnName='计划生产数' B_GridWidth='1095'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5459' B_ObjectID='11S023' B_FieldName='psum2' B_CnName='本期生产数' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5460' B_ObjectID='11S023' B_FieldName='psum' B_CnName='累计生产数' B_GridWidth='1530'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5461' B_ObjectID='11S023' B_FieldName='psum1' B_CnName='本期次布数' B_GridWidth='1170'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5462' B_ObjectID='11S023' B_FieldName='psum3' B_CnName='累计次布数' B_GridWidth='3780'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5464' B_ObjectID='11S023' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5465' B_ObjectID='11S023' B_FieldName='B_UnitWeight' B_CnName='克重' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5478' B_ObjectID='11S024' B_FieldName='B_itemidb' B_CnName='定单号' B_GridWidth='1755' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5479' B_ObjectID='11S024' B_FieldName='B_name' B_CnName='白坯名称' B_GridWidth='1830' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5480' B_ObjectID='11S024' B_FieldName='B_width' B_CnName='门幅' B_GridWidth='1815' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5481' B_ObjectID='11S024' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5482' B_ObjectID='11S024' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1905' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5483' B_ObjectID='11S024' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1110' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5484' B_ObjectID='11S024' B_FieldName='B_process' B_CnName='染厂' B_GridWidth='2130' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5485' B_ObjectID='11S024' B_FieldName='B_freight' B_CnName='代付运费' B_GridWidth='1215'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5486' B_ObjectID='11S024' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1260' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5489' B_ObjectID='11S025' B_FieldName='B_HEX' B_CnName='颜色示例' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5490' B_ObjectID='11S025' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5491' B_ObjectID='11S025' B_FieldName='B_depart' B_CnName='上级单位' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5492' B_ObjectID='11S025' B_FieldName='B_ColorName' B_CnName='色布名称' B_GridWidth='1245'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5493' B_ObjectID='11S025' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1260'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5494' B_ObjectID='11S025' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='990' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5495' B_ObjectID='11S025' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='825' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5496' B_ObjectID='11S025' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5497' B_ObjectID='11S025' B_FieldName='B_Weight' B_CnName='公斤' B_GridWidth='870' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5498' B_ObjectID='11S025' B_FieldName='B_Meter' B_CnName='米数' B_GridWidth='810' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5499' B_ObjectID='11S025' B_FieldName='B_Ma' B_CnName='码数' B_GridWidth='780' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5500' B_ObjectID='11S025' B_FieldName='B_ClientName' B_CnName='客户名' B_GridWidth='1065'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5501' B_ObjectID='11S025' B_FieldName='B_DeliveryNote' B_CnName='送货单号' B_GridWidth='840'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5502' B_ObjectID='11S025' B_FieldName='B_type' B_CnName='加工类型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5503' B_ObjectID='11S025' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1740' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5504' B_ObjectID='11S025' B_FieldName='B_Waitfreight' B_CnName='代付运费' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5505' B_ObjectID='11S025' B_FieldName='B_process' B_CnName='深加工单位2' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5523' B_ObjectID='11S026' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5524' B_ObjectID='11S026' B_FieldName='B_name' B_CnName='色布品名' B_GridWidth='1650' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5525' B_ObjectID='11S026' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5526' B_ObjectID='11S026' B_FieldName='B_Hua' B_CnName='花型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5527' B_ObjectID='11S026' B_FieldName='B_width' B_CnName='门幅' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5528' B_ObjectID='11S026' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5529' B_ObjectID='11S026' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5530' B_ObjectID='11S026' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5531' B_ObjectID='11S026' B_FieldName='B_PactCode' B_CnName='合同号' B_GridWidth='1650'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5532' B_ObjectID='11S026' B_FieldName='B_Client' B_CnName='客户' B_GridWidth='1290' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5533' B_ObjectID='11S026' B_FieldName='B_freight' B_CnName='代付运费' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5534' B_ObjectID='11S026' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5535' B_ObjectID='11S026' B_FieldName='B_hex' B_CnName='颜色示例' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5536' B_ObjectID='11S026' B_FieldName='B_colorname' B_CnName='颜色名称' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5537' B_ObjectID='11S027' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5538' B_ObjectID='11S027' B_FieldName='B_GoodsNameAlias' B_CnName='色布品名' B_GridWidth='1290'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5539' B_ObjectID='11S027' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5540' B_ObjectID='11S027' B_FieldName='B_Producer' B_CnName='花型' B_GridWidth='780' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5543' B_ObjectID='11S027' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5544' B_ObjectID='11S027' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5545' B_ObjectID='11S027' B_FieldName='B_PactCode' B_CnName='合同号' B_GridWidth='1050'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5546' B_ObjectID='11S027' B_FieldName='B_Clientname' B_CnName='客户' B_GridWidth='1290' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5548' B_ObjectID='11S027' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5549' B_ObjectID='11S027' B_FieldName='B_hex' B_CnName='颜色示例' B_GridWidth='915' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5550' B_ObjectID='11S027' B_FieldName='B_name' B_CnName='颜色名称' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5551' B_ObjectID='11S027' B_FieldName='sum1' B_CnName='匹数' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5552' B_ObjectID='11S027' B_FieldName='sum2' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5566' B_ObjectID='11S028' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='2190'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5567' B_ObjectID='11S028' B_FieldName='B_date' B_CnName='单据日期' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5568' B_ObjectID='11S028' B_FieldName='B_OrderCode' B_CnName='订单号' B_GridWidth='960'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5569' B_ObjectID='11S028' B_FieldName='B_ClientName' B_CnName='供应商' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5570' B_ObjectID='11S028' B_FieldName='B_Name' B_CnName='原料名称' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5571' B_ObjectID='11S028' B_FieldName='B_Specification' B_CnName='规格' B_GridWidth='2235'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5572' B_ObjectID='11S028' B_FieldName='B_qty1' B_CnName='订单采购数量' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5573' B_ObjectID='11S028' B_FieldName='B_price1' B_CnName='参考单价' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5574' B_ObjectID='11S028' B_FieldName='B_Qty' B_CnName='到货数量' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5575' B_ObjectID='11S028' B_FieldName='B_Price' B_CnName='到货单价' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5576' B_ObjectID='11S028' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='795' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5577' B_ObjectID='11S028' B_FieldName='B_DateLast' B_CnName='最后到货时间' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5590' B_ObjectID='11S029' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5592' B_ObjectID='11S029' B_FieldName='B_ColorName' B_CnName='原料名称' B_GridWidth='1845'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5593' B_ObjectID='11S029' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1980'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5594' B_ObjectID='11S029' B_FieldName='B_qty' B_CnName='数量' B_GridWidth='1275' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5598' B_ObjectID='11S029' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1725' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5599' B_ObjectID='11S029' B_FieldName='B_process' B_CnName='加工户' B_GridWidth='2385' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5600' B_ObjectID='11S030' B_FieldName='B_HEX' B_CnName='颜色示例' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5601' B_ObjectID='11S030' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5603' B_ObjectID='11S030' B_FieldName='B_ColorName' B_CnName='色布名称' B_GridWidth='1245'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5604' B_ObjectID='11S030' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1260'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5605' B_ObjectID='11S030' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='990' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5606' B_ObjectID='11S030' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='825' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5607' B_ObjectID='11S030' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5608' B_ObjectID='11S030' B_FieldName='B_Weight' B_CnName='公斤' B_GridWidth='870' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5609' B_ObjectID='11S030' B_FieldName='B_Meter' B_CnName='米数' B_GridWidth='810' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5610' B_ObjectID='11S030' B_FieldName='B_Ma' B_CnName='码数' B_GridWidth='780' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5611' B_ObjectID='11S030' B_FieldName='B_ClientName' B_CnName='客户名' B_GridWidth='1065'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5612' B_ObjectID='11S030' B_FieldName='B_DeliveryNote' B_CnName='送货单号' B_GridWidth='840'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5613' B_ObjectID='11S030' B_FieldName='B_type' B_CnName='加工类型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5614' B_ObjectID='11S030' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1740' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5615' B_ObjectID='11S030' B_FieldName='B_Waitfreight' B_CnName='代付运费' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5616' B_ObjectID='11S030' B_FieldName='B_process' B_CnName='深加工单位' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5617' B_ObjectID='11S031' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5618' B_ObjectID='11S031' B_FieldName='B_suppliers' B_CnName='供应商' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5619' B_ObjectID='11S031' B_FieldName='B_ColorName' B_CnName='原料名称' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5620' B_ObjectID='11S031' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5621' B_ObjectID='11S031' B_FieldName='B_qty' B_CnName='数量' B_GridWidth='2775' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5622' B_ObjectID='11S031' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1605' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5623' B_ObjectID='11S031' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='1890' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5624' B_ObjectID='11S031' B_FieldName='B_Cang' B_CnName='仓位' B_GridWidth='1905' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5625' B_ObjectID='11S031' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='3810' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5626' B_ObjectID='11S032' B_FieldName='B_itemidb' B_CnName='定单号' B_GridWidth='2745' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5627' B_ObjectID='11S032' B_FieldName='B_name' B_CnName='白坯名称' B_GridWidth='1830' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5628' B_ObjectID='11S032' B_FieldName='B_width' B_CnName='门幅' B_GridWidth='1815' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5629' B_ObjectID='11S032' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5630' B_ObjectID='11S032' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1905' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5631' B_ObjectID='11S032' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1110' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5632' B_ObjectID='11S032' B_FieldName='B_process' B_CnName='染厂' B_GridWidth='2130' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5633' B_ObjectID='11S032' B_FieldName='B_freight' B_CnName='代付运费' B_GridWidth='1215'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5634' B_ObjectID='11S032' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1260' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5635' B_ObjectID='11S032' B_FieldName='B_producer' B_CnName='调拨染厂' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5636' B_ObjectID='11S007' B_FieldName='B_supplement' B_CnName='补单' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5637' B_ObjectID='11S012' B_FieldName='B_supplement' B_CnName='补单' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5638' B_ObjectID='11S014' B_FieldName='B_supplement' B_CnName='补单' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5641' B_ObjectID='11S033' B_FieldName='B_HEX' B_CnName='颜色示例' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5642' B_ObjectID='11S033' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5643' B_ObjectID='11S033' B_FieldName='B_depart' B_CnName='染厂' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5644' B_ObjectID='11S033' B_FieldName='B_ColorName' B_CnName='色布名称' B_GridWidth='1245'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5645' B_ObjectID='11S033' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1260'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5646' B_ObjectID='11S033' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='990' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5647' B_ObjectID='11S033' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='825' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5648' B_ObjectID='11S033' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5649' B_ObjectID='11S033' B_FieldName='B_Weight' B_CnName='公斤' B_GridWidth='870' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5650' B_ObjectID='11S033' B_FieldName='B_Meter' B_CnName='米数' B_GridWidth='810' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5651' B_ObjectID='11S033' B_FieldName='B_Ma' B_CnName='码数' B_GridWidth='780' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5652' B_ObjectID='11S033' B_FieldName='B_ClientName' B_CnName='客户名' B_GridWidth='1065'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5653' B_ObjectID='11S033' B_FieldName='B_DeliveryNote' B_CnName='送货单号' B_GridWidth='840'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5654' B_ObjectID='11S033' B_FieldName='B_type' B_CnName='加工类型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5655' B_ObjectID='11S033' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1740' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5656' B_ObjectID='11S033' B_FieldName='B_Waitfreight' B_CnName='代付运费' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5657' B_ObjectID='11S033' B_FieldName='B_process' B_CnName='深加工单位' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5658' B_ObjectID='11S033' B_FieldName='B_ProcessCost' B_CnName='加工费' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5678' B_ObjectID='11S034' B_FieldName='B_BillType' B_CnName='类型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5679' B_ObjectID='11S034' B_FieldName='B_ClientName' B_CnName='供应商' B_GridWidth='1560'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5680' B_ObjectID='11S034' B_FieldName='B_DateCreate' B_CnName='入库日期' B_GridWidth='1200'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5681' B_ObjectID='11S034' B_FieldName='B_ordercode' B_CnName='订单号' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5682' B_ObjectID='11S034' B_FieldName='B_Name' B_CnName='原料品名' B_GridWidth='1500' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5683' B_ObjectID='11S034' B_FieldName='B_Specification' B_CnName='原料规格' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5685' B_ObjectID='11S034' B_FieldName='sum2' B_CnName='公斤' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5686' B_ObjectID='11S034' B_FieldName='B_Price' B_CnName='单价' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5687' B_ObjectID='11S034' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5690' B_ObjectID='11S035' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5691' B_ObjectID='11S035' B_FieldName='B_suppliers' B_CnName='供应商' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5692' B_ObjectID='11S035' B_FieldName='B_ColorName' B_CnName='原料名称' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5693' B_ObjectID='11S035' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5694' B_ObjectID='11S035' B_FieldName='B_qty' B_CnName='数量' B_GridWidth='2775' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5695' B_ObjectID='11S035' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5696' B_ObjectID='11S035' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5697' B_ObjectID='11S035' B_FieldName='B_Cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5698' B_ObjectID='11S035' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1725' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5699' B_ObjectID='11S035' B_FieldName='B_process' B_CnName='加工户' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5700' B_ObjectID='11S036' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5701' B_ObjectID='11S036' B_FieldName='B_process' B_CnName='加工户' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5702' B_ObjectID='11S036' B_FieldName='B_ColorName' B_CnName='原料名称' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5703' B_ObjectID='11S036' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5704' B_ObjectID='11S036' B_FieldName='B_qty' B_CnName='数量' B_GridWidth='2775' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5705' B_ObjectID='11S036' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5706' B_ObjectID='11S036' B_FieldName='B_Sum' B_CnName='金额' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5707' B_ObjectID='11S036' B_FieldName='B_Cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5708' B_ObjectID='11S036' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1725' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5709' B_ObjectID='11S036' B_FieldName='B_transfers' B_CnName='调拨加工户' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5719' B_ObjectID='11S037' B_FieldName='B_BillType' B_CnName='类型' B_GridWidth='1155' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5720' B_ObjectID='11S037' B_FieldName='B_ClientName' B_CnName='加工户' B_GridWidth='1710'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5721' B_ObjectID='11S037' B_FieldName='B_DateCreate' B_CnName='日期区间' B_GridWidth='1785'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5722' B_ObjectID='11S037' B_FieldName='B_OrderCode' B_CnName='订单号' B_GridWidth='1035'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5723' B_ObjectID='11S037' B_FieldName='B_Name' B_CnName='原料品名' B_GridWidth='2565' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5724' B_ObjectID='11S037' B_FieldName='B_Specification' B_CnName='原料规格' B_GridWidth='1710'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5725' B_ObjectID='11S037' B_FieldName='sum2' B_CnName='公斤' B_GridWidth='1305' B_Alignment='1'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5727' B_ObjectID='11S014' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='5728' B_ObjectID='11S014' B_FieldName='B_sum' B_CnName='金额' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6638' B_ObjectID='11S034' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6639' B_ObjectID='11S034' B_FieldName='B_XHBL' B_CnName='序号' B_GridWidth='600' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6640' B_ObjectID='11S034' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='1725'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6641' B_ObjectID='11S037' B_FieldName='B_XHBL' B_CnName='序号' B_GridWidth='570' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6642' B_ObjectID='11S037' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2730' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6643' B_ObjectID='11S037' B_FieldName='B_codeid' B_CnName='单据编号' B_GridWidth='1680'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6644' B_ObjectID='11S038' B_FieldName='B_BillName' B_CnName='类型' B_GridWidth='1155' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6645' B_ObjectID='11S038' B_FieldName='B_UnitWeight' B_CnName='克重' B_GridWidth='1710' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6646' B_ObjectID='11S038' B_FieldName='B_date' B_CnName='日期区间' B_GridWidth='1410' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6647' B_ObjectID='11S038' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1320' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6648' B_ObjectID='11S038' B_FieldName='B_Name' B_CnName='白坯品名' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6649' B_ObjectID='11S038' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1230' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6650' B_ObjectID='11S038' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1305' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6651' B_ObjectID='11S038' B_FieldName='B_XHBL' B_CnName='序号' B_GridWidth='570' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6652' B_ObjectID='11S038' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2730' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6653' B_ObjectID='11S038' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='1680'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6654' B_ObjectID='11S038' B_FieldName='B_PIShu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6655' B_ObjectID='11S038' B_FieldName='B_ClientName' B_CnName='加工户/供应商' B_GridWidth='1620'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6684' B_ObjectID='11S039' B_FieldName='B_BillName' B_CnName='类型' B_GridWidth='1155' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6685' B_ObjectID='11S039' B_FieldName='B_UnitWeight' B_CnName='克重' B_GridWidth='1710' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6686' B_ObjectID='11S039' B_FieldName='B_date' B_CnName='日期区间' B_GridWidth='1410' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6687' B_ObjectID='11S039' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1320' B_Alignment='2'
+		 B_FieldFormat='' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6688' B_ObjectID='11S039' B_FieldName='B_Name' B_CnName='白坯品名' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6689' B_ObjectID='11S039' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1230' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6690' B_ObjectID='11S039' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1305' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6691' B_ObjectID='11S039' B_FieldName='B_XHBL' B_CnName='序号' B_GridWidth='570' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6692' B_ObjectID='11S039' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2730' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6693' B_ObjectID='11S039' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='1680'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6694' B_ObjectID='11S039' B_FieldName='B_PIShu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6695' B_ObjectID='11S039' B_FieldName='B_ClientName' B_CnName='染厂' B_GridWidth='1620' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6697' B_ObjectID='11S040' B_FieldName='B_BillName' B_CnName='类型' B_GridWidth='1155' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6699' B_ObjectID='11S040' B_FieldName='B_date' B_CnName='日期区间' B_GridWidth='1410' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6700' B_ObjectID='11S040' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1320' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6701' B_ObjectID='11S040' B_FieldName='B_Name' B_CnName='色布品名' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6702' B_ObjectID='11S040' B_FieldName='B_Specification' B_CnName='规格' B_GridWidth='1800'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6703' B_ObjectID='11S040' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1305' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6704' B_ObjectID='11S040' B_FieldName='B_XHBL' B_CnName='序号' B_GridWidth='570' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6705' B_ObjectID='11S040' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2730' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6706' B_ObjectID='11S040' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='1680'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6707' B_ObjectID='11S040' B_FieldName='B_PS' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6708' B_ObjectID='11S040' B_FieldName='B_ClientName' B_CnName='染厂' B_GridWidth='1620' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6709' B_ObjectID='11S040' B_FieldName='B_hex' B_CnName='颜色示例' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6710' B_ObjectID='11S040' B_FieldName='B_Producer' B_CnName='花型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6711' B_ObjectID='11S040' B_FieldName='B_Name' B_CnName='颜色' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6712' B_ObjectID='11S041' B_FieldName='B_BillName' B_CnName='类型' B_GridWidth='1155' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6713' B_ObjectID='11S041' B_FieldName='B_date' B_CnName='日期区间' B_GridWidth='1410' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6714' B_ObjectID='11S041' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1320' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6715' B_ObjectID='11S041' B_FieldName='B_Name' B_CnName='白坯品名' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6716' B_ObjectID='11S041' B_FieldName='B_width' B_CnName='门幅' B_GridWidth='1800' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6717' B_ObjectID='11S041' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1305' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6718' B_ObjectID='11S041' B_FieldName='B_XHBL' B_CnName='序号' B_GridWidth='570' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6719' B_ObjectID='11S041' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2730' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6720' B_ObjectID='11S041' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='1680'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6721' B_ObjectID='11S041' B_FieldName='c' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6722' B_ObjectID='11S041' B_FieldName='B_ClientName' B_CnName='客户' B_GridWidth='2805' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6723' B_ObjectID='11S041' B_FieldName='B_hex' B_CnName='颜色示例' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6724' B_ObjectID='11S041' B_FieldName='B_Producer' B_CnName='花型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6725' B_ObjectID='11S041' B_FieldName='B_Name' B_CnName='颜色' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6727' B_ObjectID='11S041' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6729' B_ObjectID='11S041' B_FieldName='B_PactCode' B_CnName='合同号' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6760' B_ObjectID='11S042' B_FieldName='B_HEX' B_CnName='颜色示例' B_GridWidth='885' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6761' B_ObjectID='11S042' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6762' B_ObjectID='11S042' B_FieldName='B_depart' B_CnName='染厂' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6763' B_ObjectID='11S042' B_FieldName='B_ColorName' B_CnName='色布名称' B_GridWidth='1245'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6764' B_ObjectID='11S042' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1260'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6765' B_ObjectID='11S042' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='990' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6766' B_ObjectID='11S042' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1185' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6767' B_ObjectID='11S042' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='660' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6768' B_ObjectID='11S042' B_FieldName='B_Weight' B_CnName='公斤' B_GridWidth='870' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6769' B_ObjectID='11S042' B_FieldName='B_Meter' B_CnName='米数' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6770' B_ObjectID='11S042' B_FieldName='B_price' B_CnName='回修单价' B_GridWidth='1110'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6771' B_ObjectID='11S042' B_FieldName='B_repair' B_CnName='回修类型' B_GridWidth='1200'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6772' B_ObjectID='11S042' B_FieldName='B_repaircost' B_CnName='回修金额' B_GridWidth='1125'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6774' B_ObjectID='11S042' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='810' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6775' B_ObjectID='11S043' B_FieldName='B_HEX' B_CnName='颜色示例' B_GridWidth='885' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6776' B_ObjectID='11S043' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6777' B_ObjectID='11S043' B_FieldName='B_depart' B_CnName='染厂' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6778' B_ObjectID='11S043' B_FieldName='B_ColorName' B_CnName='色布名称' B_GridWidth='1245'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6779' B_ObjectID='11S043' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1260'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6780' B_ObjectID='11S043' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='990' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6781' B_ObjectID='11S043' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1185' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6782' B_ObjectID='11S043' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='660' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6783' B_ObjectID='11S043' B_FieldName='B_Weight' B_CnName='公斤' B_GridWidth='870' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6784' B_ObjectID='11S043' B_FieldName='B_Meter' B_CnName='米数' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6785' B_ObjectID='11S043' B_FieldName='B_price' B_CnName='回修单价' B_GridWidth='1110'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6786' B_ObjectID='11S043' B_FieldName='B_repair' B_CnName='回修类型' B_GridWidth='1200'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6787' B_ObjectID='11S043' B_FieldName='B_repaircost' B_CnName='回修金额' B_GridWidth='1125'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6788' B_ObjectID='11S043' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='810' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6789' B_ObjectID='11s011' B_FieldName='B_process' B_CnName='深加工单位' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6790' B_ObjectID='11s011' B_FieldName='B_repaircost' B_CnName='加工工序金额' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6805' B_ObjectID='11S044' B_FieldName='rowindex' B_CnName='序号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6806' B_ObjectID='11S044' B_FieldName='B_Clientname' B_CnName='加工户' B_GridWidth='2505'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6807' B_ObjectID='11S044' B_FieldName='sum01' B_CnName='期初结余(公斤)' B_GridWidth='3615'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6808' B_ObjectID='11S044' B_FieldName='sum02' B_CnName='本期发货(公斤)' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6809' B_ObjectID='11S044' B_FieldName='sum03' B_CnName='本期收入(匹数)' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6810' B_ObjectID='11S044' B_FieldName='sum04' B_CnName='本期收入(公斤)' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6811' B_ObjectID='11S044' B_FieldName='sum05' B_CnName='期末结余(公斤)' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6812' B_ObjectID='11S045' B_FieldName='B_BillName' B_CnName='类型' B_GridWidth='1155' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6813' B_ObjectID='11S045' B_FieldName='B_date' B_CnName='日期区间' B_GridWidth='1410' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6814' B_ObjectID='11S045' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1320' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6815' B_ObjectID='11S045' B_FieldName='B_Name' B_CnName='色布品名' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6816' B_ObjectID='11S045' B_FieldName='B_Specification' B_CnName='规格' B_GridWidth='1800'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6817' B_ObjectID='11S045' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1305' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6818' B_ObjectID='11S045' B_FieldName='B_XHBL' B_CnName='序号' B_GridWidth='570' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6819' B_ObjectID='11S045' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2730' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6820' B_ObjectID='11S045' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='1680'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6821' B_ObjectID='11S045' B_FieldName='B_PS' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6822' B_ObjectID='11S045' B_FieldName='B_ClientName' B_CnName='染厂' B_GridWidth='1620' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6823' B_ObjectID='11S045' B_FieldName='B_hex' B_CnName='颜色示例' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6824' B_ObjectID='11S045' B_FieldName='B_Producer' B_CnName='花型' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6825' B_ObjectID='11S045' B_FieldName='B_Name' B_CnName='颜色' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6826' B_ObjectID='11S046' B_FieldName='rowindex' B_CnName='序号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6827' B_ObjectID='11S046' B_FieldName='B_Clientname' B_CnName='加工户' B_GridWidth='2505'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6828' B_ObjectID='11S046' B_FieldName='sum01' B_CnName='期初结余(公斤)' B_GridWidth='3615'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6829' B_ObjectID='11S046' B_FieldName='sum02' B_CnName='本期发货(公斤)' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6830' B_ObjectID='11S046' B_FieldName='sum03' B_CnName='本期收入(匹数)' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6831' B_ObjectID='11S046' B_FieldName='sum04' B_CnName='本期收入(公斤)' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6832' B_ObjectID='11S046' B_FieldName='sum05' B_CnName='期末结余(公斤)' B_GridWidth='1500'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6833' B_ObjectID='11S046' B_FieldName='B_OrderCode' B_CnName='订单号' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6834' B_ObjectID='11S047' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6835' B_ObjectID='11S047' B_FieldName='B_suppliers' B_CnName='供应商' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6836' B_ObjectID='11S047' B_FieldName='B_ColorName' B_CnName='原料名称' B_GridWidth='1395'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6837' B_ObjectID='11S047' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1530'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6838' B_ObjectID='11S047' B_FieldName='B_qty' B_CnName='数量' B_GridWidth='2775' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6841' B_ObjectID='11S047' B_FieldName='B_Cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6842' B_ObjectID='11S047' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='1725' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6845' B_ObjectID='11S048' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6846' B_ObjectID='11S048' B_FieldName='B_supplier' B_CnName='供应商' B_GridWidth='1860'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6847' B_ObjectID='11S048' B_FieldName='B_whiteName' B_CnName='白坯名称' B_GridWidth='1995'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6848' B_ObjectID='11S048' B_FieldName='B_width' B_CnName='门幅' B_GridWidth='1740' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6849' B_ObjectID='11S048' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1770' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6850' B_ObjectID='11S048' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1680' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6851' B_ObjectID='11S048' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1515' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6852' B_ObjectID='11S048' B_FieldName='B_cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6854' B_ObjectID='11S048' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6858' B_ObjectID='11S049' B_FieldName='B_HEX' B_CnName='颜色示例' B_GridWidth='885' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6859' B_ObjectID='11S049' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6860' B_ObjectID='11S049' B_FieldName='B_depart' B_CnName='染厂' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6861' B_ObjectID='11S049' B_FieldName='B_ColorName' B_CnName='色布名称' B_GridWidth='1245'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6862' B_ObjectID='11S049' B_FieldName='B_specification' B_CnName='规格' B_GridWidth='1260'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6863' B_ObjectID='11S049' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='990' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6864' B_ObjectID='11S049' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1185' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6865' B_ObjectID='11S049' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='660' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6866' B_ObjectID='11S049' B_FieldName='B_Weight' B_CnName='公斤' B_GridWidth='870' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6867' B_ObjectID='11S049' B_FieldName='B_Meter' B_CnName='米数' B_GridWidth='840' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6868' B_ObjectID='11S049' B_FieldName='B_Ma' B_CnName='码数' B_GridWidth='1110' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6869' B_ObjectID='11S049' B_FieldName='B_ClientName' B_CnName='客户名' B_GridWidth='1200'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6870' B_ObjectID='11S049' B_FieldName='B_DeliveryNote' B_CnName='送货单号' B_GridWidth='1125'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6871' B_ObjectID='11S049' B_FieldName='B_type' B_CnName='加工类型' B_GridWidth='1140' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6872' B_ObjectID='11S049' B_FieldName='B_Memo' B_CnName='备注' B_GridWidth='810' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6873' B_ObjectID='11S049' B_FieldName='B_process' B_CnName='深加工单位' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6874' B_ObjectID='11S049' B_FieldName='B_repaircost' B_CnName='加工工序金额' B_GridWidth='1000'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6875' B_ObjectID='11S050' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6876' B_ObjectID='11S050' B_FieldName='B_supplier' B_CnName='供应商' B_GridWidth='1860'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6877' B_ObjectID='11S050' B_FieldName='B_whiteName' B_CnName='白坯名称' B_GridWidth='1995'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6878' B_ObjectID='11S050' B_FieldName='B_width' B_CnName='门幅' B_GridWidth='1740' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6879' B_ObjectID='11S050' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1770' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6880' B_ObjectID='11S050' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1680' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6881' B_ObjectID='11S050' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1515' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6882' B_ObjectID='11S050' B_FieldName='B_cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6883' B_ObjectID='11S050' B_FieldName='B_process' B_CnName='外发染厂' B_GridWidth='1005'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6884' B_ObjectID='11S050' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6885' B_ObjectID='11S050' B_FieldName='B_supplement' B_CnName='补单' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6886' B_ObjectID='11S050' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6887' B_ObjectID='11S050' B_FieldName='B_sum' B_CnName='金额' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6888' B_ObjectID='11S051' B_FieldName='B_itemidb' B_CnName='订单号' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6889' B_ObjectID='11S051' B_FieldName='B_supplier' B_CnName='供应商' B_GridWidth='1860'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6890' B_ObjectID='11S051' B_FieldName='B_whiteName' B_CnName='白坯名称' B_GridWidth='1995'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6891' B_ObjectID='11S051' B_FieldName='B_width' B_CnName='门幅' B_GridWidth='1740' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6892' B_ObjectID='11S051' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1770' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6893' B_ObjectID='11S051' B_FieldName='B_PIshu' B_CnName='匹数' B_GridWidth='1680' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6894' B_ObjectID='11S051' B_FieldName='B_kg' B_CnName='公斤' B_GridWidth='1515' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6895' B_ObjectID='11S051' B_FieldName='B_cang' B_CnName='仓位' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6897' B_ObjectID='11S051' B_FieldName='B_memo' B_CnName='备注' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6898' B_ObjectID='11S051' B_FieldName='B_supplement' B_CnName='补单' B_GridWidth='1000' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6901' B_ObjectID='11S052' B_FieldName='B_BillName' B_CnName='类型' B_GridWidth='1155' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6902' B_ObjectID='11S052' B_FieldName='B_UnitWeight' B_CnName='克重' B_GridWidth='1710' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6903' B_ObjectID='11S052' B_FieldName='B_date' B_CnName='日期区间' B_GridWidth='1410' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6904' B_ObjectID='11S052' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1320' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6905' B_ObjectID='11S052' B_FieldName='B_Name' B_CnName='白坯品名' B_GridWidth='1860' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6906' B_ObjectID='11S052' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1230' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6907' B_ObjectID='11S052' B_FieldName='B_KG' B_CnName='公斤' B_GridWidth='1305' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6908' B_ObjectID='11S052' B_FieldName='B_XHBL' B_CnName='序号' B_GridWidth='945' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6909' B_ObjectID='11S052' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2730' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6910' B_ObjectID='11S052' B_FieldName='B_CodeID' B_CnName='单据编号' B_GridWidth='1185'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6911' B_ObjectID='11S052' B_FieldName='B_PIShu' B_CnName='匹数' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6912' B_ObjectID='11S052' B_FieldName='B_ClientName' B_CnName='加工户/供应商' B_GridWidth='1620'
+		 B_Alignment='2' B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6913' B_ObjectID='11S052' B_FieldName='B_price' B_CnName='单价' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+	<z:row B_ItemID='6914' B_ObjectID='11S052' B_FieldName='B_sum' B_CnName='金额' B_GridWidth='1005' B_Alignment='2'
+		 B_Split='0' B_Locked='0'/>
+</rs:data>
+</xml>

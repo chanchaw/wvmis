@@ -1,0 +1,83 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true' rs:ReshapeName='DSRowset1_131'>
+		<s:AttributeType name='B_ItemID' rs:number='1' rs:basecatalog='WVAccount' rs:basetable='G_BLSFormTools' rs:basecolumn='B_ItemID'
+			 rs:keycolumn='true' rs:autoincrement='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ObjectID' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_ObjectID'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_BandIndex' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_BandIndex'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ToolIndex' rs:number='4' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_ToolIndex'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FieldName' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_FieldName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Caption' rs:number='6' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Caption'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_SubObject' rs:number='7' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_SubObject'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_CtlName' rs:number='8' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_CtlName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Width' rs:number='9' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Width'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Height' rs:number='10' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Height'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_EdgeHeight' rs:number='11' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_EdgeHeight'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DockingArea' rs:number='12' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_DockingArea'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Enabled' rs:number='13' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Enabled'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Unique' rs:number='14' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Unique'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_AutoFillParent' rs:number='15' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_AutoFillParent'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_PYTo' rs:number='16' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_PYTo'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_NotNull' rs:number='17' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_NotNull'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row B_ItemID='1120' B_ObjectID='11B030' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='交货方式'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+</rs:data>
+</xml>

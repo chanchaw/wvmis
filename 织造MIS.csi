@@ -1,0 +1,25 @@
+[History]
+1=#P0#=mb	#P1#=SetGrid	#P2#=织造企业MIS系统/frmColorfactory_Edit/SetGrid	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305154000	#P7#=0	#P8#=17	.
+2=#P0#=mb	#P1#=SetGrid	#P2#=织造企业MIS系统/frmColorProcure_Edit/SetGrid	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305153559	#P7#=0	#P8#=3	.
+3=#P0#=mb	#P1#=SetGrid	#P2#=织造企业MIS系统/frmColorDelivery_Edit/SetGrid	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305152427	#P7#=0	#P8#=16	.
+4=#P0#=mb	#P1#=Grid	#P2#=织造企业MIS系统/frmColorDelivery_Edit/Grid	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305152354	#P7#=0	#P8#=8	.
+5=#P0#=mb	#P1#=SetGrid	#P2#=织造企业MIS系统/frmColorOrder_Edit/SetGrid	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305151507	#P7#=0	#P8#=21	.
+6=#P0#=mb	#P1#=Grid	#P2#=织造企业MIS系统/frmColorOrder_Edit/Grid	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305151019	#P7#=0	#P8#=10	.
+7=#P0#=mb	#P1#=AddNew	#P2#=织造企业MIS系统/frmColorOrder/AddNew	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305150955	#P7#=0	#P8#=4	.
+8=#P0#=mb	#P1#=GetUserName	#P2#=织造企业MIS系统/frmOrder/GetUserName	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305150922	#P7#=0	#P8#=5	.
+9=#P0#=mb	#P1#=openbill	#P2#=织造企业MIS系统/frmOrder/openbill	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20190305145016	#P7#=0	#P8#=38	.
+[历史]
+1=#P0#=mb	#P1#=save	#P2#=织造企业MIS系统/frmColorlastyear/save	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20190306170533	#P7#=0	#P8#=30	.
+2=#P0#=mb	#P1#=saveandprint	#P2#=织造企业MIS系统/frmColorDelivery/saveandprint	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426145054	#P7#=0	#P8#=85	.
+3=#P0#=mb	#P1#=AddNew	#P2#=织造企业MIS系统/frmColorDelivery/AddNew	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426140514	#P7#=0	#P8#=191	.
+4=#P0#=mb	#P1#=TDBGridAddOneRow	#P2#=织造企业MIS系统/frmColorDelivery/TDBGridAddOneRow	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426140113	#P7#=0	#P8#=2	.
+5=#P0#=mb	#P1#=getDevAddress	#P2#=织造企业MIS系统/frmColorDelivery/getDevAddress	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426140042	#P7#=0	#P8#=0	.
+6=#P0#=mb	#P1#=TDBGrid1_FetchCellStyle	#P2#=织造企业MIS系统/frmColorDelivery/TDBGrid1_FetchCellStyle	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20180426135958	#P7#=0	#P8#=6	.
+7=#P0#=mb	#P1#=savedetailupdate	#P2#=织造企业MIS系统/frmColorDelivery/savedetailupdate	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426135800	#P7#=0	#P8#=9	.
+8=#P0#=mb	#P1#=TDBGrid1_BeforeColUpdate	#P2#=织造企业MIS系统/frmColorDelivery/TDBGrid1_BeforeColUpdate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20180426135604	#P7#=0	#P8#=-1	.
+9=#P0#=mb	#P1#=sumall	#P2#=织造企业MIS系统/frmColorDelivery/sumall	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426135504	#P7#=0	#P8#=0	.
+10=#P0#=mb	#P1#=setRs	#P2#=织造企业MIS系统/frmColorDelivery/setRs	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426135306	#P7#=0	#P8#=27	.
+11=#P0#=mb	#P1#=setrsDetail	#P2#=织造企业MIS系统/frmColorDelivery/setrsDetail	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426135149	#P7#=0	#P8#=11	.
+12=#P0#=mb	#P1#=ActiveBar21_ToolClick	#P2#=织造企业MIS系统/frmPopupDanWei/ActiveBar21_ToolClick	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20180426131917	#P7#=0	#P8#=4	.
+13=#P0#=mb	#P1#=GetClient	#P2#=织造企业MIS系统/frmPopupDanWei/GetClient	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20180426131655	#P7#=0	#P8#=1	.
+14=#P0#=mb	#P1#=PushButton1_Click	#P2#=织造企业MIS系统/frmColorDelivery/PushButton1_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20180426131624	#P7#=0	#P8#=7	.

@@ -1,0 +1,55 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true' rs:ReshapeName='DSRowset1_16'>
+		<s:AttributeType name='B_ObjectID' rs:number='1' rs:writeunknown='true' rs:basecatalog='WVAccount' rs:basetable='G_CustomObject'
+			 rs:basecolumn='B_ObjectID' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ObjectName' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_CustomObject' rs:basecolumn='B_ObjectName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FormName' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_CustomObject' rs:basecolumn='B_FormName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row B_ObjectID='19B040' B_ObjectName='白坯发货' B_FormName='frmWhiteDelivery'/>
+	<z:row B_ObjectID='19B041' B_ObjectName='深加工入库' B_FormName='frmColorprocess'/>
+	<z:row B_ObjectID='19B042' B_ObjectName='色布发货' B_FormName='frmColorDelivery'/>
+	<z:row B_ObjectID='19B043' B_ObjectName='原料发货单据' B_FormName='frmOriginalDelivery'/>
+	<z:row B_ObjectID='19B044' B_ObjectName='色布客户退货' B_FormName='frmColorClientReturn'/>
+	<z:row B_ObjectID='19B045' B_ObjectName='染厂退货' B_FormName='frmWhiteReturn'/>
+	<z:row B_ObjectID='19B046' B_ObjectName='原料退货' B_FormName='frmOriginalReturn'/>
+	<z:row B_ObjectID='19B047' B_ObjectName='白坯调拨' B_FormName='frmWhitetransfers'/>
+	<z:row B_ObjectID='19B048' B_ObjectName='原料入库叙事表' B_FormName='frmOriginalOrderInsetReport'/>
+	<z:row B_ObjectID='19B049' B_ObjectName='原料库存表' B_FormName='frmOriginalinventory'/>
+	<z:row B_ObjectID='19B050' B_ObjectName='加工户收发存汇总' B_FormName='frmOriginalProducerReport'/>
+	<z:row B_ObjectID='19B051' B_ObjectName='原料收发存汇总' B_FormName='frmOriginalSumReport'/>
+	<z:row B_ObjectID='19B052' B_ObjectName='原料加工户退货' B_FormName='frmOriginalprocessReturn'/>
+	<z:row B_ObjectID='19B053' B_ObjectName='原料调拨' B_FormName='frmOriginaltransfers'/>
+	<z:row B_ObjectID='19B054' B_ObjectName='原料发货序时表' B_FormName='frmOriginalprocessReport'/>
+	<z:row B_ObjectID='19B055' B_ObjectName='白坯入库序时表' B_FormName='frmWhiteReport'/>
+	<z:row B_ObjectID='19B056' B_ObjectName='白坯发货序时表' B_FormName='frmWhiteDeliveryReport'/>
+	<z:row B_ObjectID='19B057' B_ObjectName='白坯库存序时表' B_FormName='frmWhiteinventoryReport'/>
+	<z:row B_ObjectID='19B058' B_ObjectName='白坯收发存汇总' B_FormName='frmWhiteSumRepoart'/>
+	<z:row B_ObjectID='19B059' B_ObjectName='色布入库序时表' B_FormName='frmColorInsetReport'/>
+	<z:row B_ObjectID='19B060' B_ObjectName='色布发货序时表' B_FormName='frmColorDeliveryReport'/>
+	<z:row B_ObjectID='19B061' B_ObjectName='回修色布入库' B_FormName='frmColorRepair'/>
+	<z:row B_ObjectID='19B062' B_ObjectName='色布回修退染厂' B_FormName='frmColorReturnRepair'/>
+	<z:row B_ObjectID='19B063' B_ObjectName='色布回修报表' B_FormName='frmColorRepairReport'/>
+	<z:row B_ObjectID='19B064' B_ObjectName='原料外发加工汇总明细' B_FormName='frmOriginalProducerDetailReport'/>
+	<z:row B_ObjectID='19B065' B_ObjectName='原料上年度库存' B_FormName='frmOriginalLastYear'/>
+	<z:row B_ObjectID='19B066' B_ObjectName='白坯上年度库存' B_FormName='frmWhitelastyear'/>
+	<z:row B_ObjectID='19B067' B_ObjectName='色布上年度库存' B_FormName='frmColorlastyear'/>
+	<z:row B_ObjectID='19B068' B_ObjectName='白坯采购入库' B_FormName='frmWhiteProcureInset'/>
+	<z:row B_ObjectID='19B069' B_ObjectName='白坯采购退货' B_FormName='frmWhiteProcureReturn'/>
+	<z:row B_ObjectID='19B070' B_ObjectName='白坯采购序时表' B_FormName='frmWhiteProcureReport'/>
+</rs:data>
+</xml>

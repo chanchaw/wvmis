@@ -1,0 +1,278 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true' rs:ReshapeName='DSRowset1_12'>
+		<s:AttributeType name='B_ObjectID' rs:number='1' rs:writeunknown='true' rs:basecatalog='WVAccount' rs:basetable='G_BLS'
+			 rs:basecolumn='B_ObjectID' rs:keycolumn='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_BillName' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_BillName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_SQL' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_SQL'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2147483647' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FormName' rs:number='4' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_FormName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Width' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_Width'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Height' rs:number='6' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_Height'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_EditFormName' rs:number='7' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_EditFormName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='40'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FWidth' rs:number='8' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_FWidth'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FHeight' rs:number='9' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_FHeight'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_UseEditForm' rs:number='10' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_UseEditForm'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_UseListField' rs:number='11' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_UseListField'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_UseType' rs:number='12' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_UseType'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_OrderBySQL' rs:number='13' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_OrderBySQL'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_IsTree' rs:number='14' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_IsTree'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_TreeTableName' rs:number='15' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_TreeTableName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_TreeParentField' rs:number='16' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_TreeParentField'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_TreeChildField' rs:number='17' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_TreeChildField'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_SParentField' rs:number='18' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLS' rs:basecolumn='B_SParentField'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row B_ObjectID='11S004' B_BillName='显示 - 合同' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S005' B_BillName='显示 - 色布计划' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S006' B_BillName='显示 - 白坯计划' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S007' B_BillName='显示 - 白坯构成' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S008' B_BillName='显示 - 色布发货' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S009' B_BillName='显示 - 原料查询' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S010' B_BillName='显示 - 原料订单' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11s011' B_BillName='显示 - 染厂色布入库' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S012' B_BillName='显示 - 原料入库' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S013' B_BillName='显示 - 原料采购入库对比表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S014' B_BillName='显示 - 外加工白坯入库' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S015' B_BillName='显示 - 外加工白坯入库' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL=''/>
+	<z:row B_ObjectID='11S016' B_BillName='显示 - 外加工白坯入库' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S017' B_BillName='显示 - 染厂色布入库明细上' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S018' B_BillName='显示 - 染厂色布入库明细下' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S019' B_BillName='显示 - 外加工白坯入库明细汇总' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S020' B_BillName='显示 - 原料入库明细上' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S021' B_BillName='显示 - 原料入库明细下' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S022' B_BillName='显示 - 白坯车间次布报表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S023' B_BillName='显示 - 白坯车间生产报表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S024' B_BillName='显示 - 白坯发货' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S025' B_BillName='显示 - 深加工色布入库' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S026' B_BillName='显示 - 色布发货' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S027' B_BillName='显示 - 色布发货弹出细码单样式' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S028' B_BillName='显示 - 原料入库中对比表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S029' B_BillName='显示 - 原料发货单据' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S030' B_BillName='显示 - 色布客户退货' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S031' B_BillName='显示 - 原料退货' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S032' B_BillName='显示 - 白坯调拨' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S033' B_BillName='显示 - 染厂色布退货' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S034' B_BillName='显示 - 原料入库序时表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S035' B_BillName='显示 - 加工户退货' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S036' B_BillName='显示 - 原料调拨' B_SQL='Select B_SID From G_Unit Where 1=1' B_FormName='frmModBLS'
+		 B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500' B_UseEditForm='1'
+		 B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField='' B_TreeChildField=''
+		 B_SParentField=''/>
+	<z:row B_ObjectID='11S037' B_BillName='显示 - 原料发货序时表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S038' B_BillName='显示 - 白坯入库序时表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S039' B_BillName='显示 - 白坯发货序时表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S040' B_BillName='显示 - 色布入库序时表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S041' B_BillName='显示 - 色布发货序时表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S042' B_BillName='显示 - 回修色布入库' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S043' B_BillName='显示 - 色布回修退染厂' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S044' B_BillName='显示 - 原料加工户收发存' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S045' B_BillName='显示 - 色布入库序时表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL=''/>
+	<z:row B_ObjectID='11S046' B_BillName='显示 - 原料加工户收发存明细' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S047' B_BillName='显示 - 原料上年度库存' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S048' B_BillName='显示 -白坯上年度库存' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S049' B_BillName='显示 - 色布上年度库存' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S050' B_BillName='显示 - 白坯采购入库' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S051' B_BillName='显示 - 白坯采购退货' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+	<z:row B_ObjectID='11S052' B_BillName='显示 - 白坯采购序时表' B_SQL='Select B_SID From G_Unit Where 1=1'
+		 B_FormName='frmModBLS' B_Width='13000' B_Height='7800' B_EditFormName='frmModBLSEdit' B_FWidth='9250' B_FHeight='3500'
+		 B_UseEditForm='1' B_UseListField='1' B_UseType='1' B_OrderBySQL='' B_IsTree='0' B_TreeTableName='' B_TreeParentField=''
+		 B_TreeChildField='' B_SParentField=''/>
+</rs:data>
+</xml>

@@ -1,0 +1,62 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true' rs:ReshapeName='DSRowset1_135'>
+		<s:AttributeType name='B_ItemID' rs:number='1' rs:basecatalog='WVAccount' rs:basetable='G_BLFieldUse' rs:basecolumn='B_ItemID'
+			 rs:keycolumn='true' rs:autoincrement='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ObjectID' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_ObjectID'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FieldName' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_FieldName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_UseFormula' rs:number='4' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_UseFormula'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Formula' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_Formula'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='254'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_IsCount' rs:number='6' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_IsCount'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_UseRule' rs:number='7' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_UseRule'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Rule' rs:number='8' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_Rule'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='254'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_OnErrShow' rs:number='9' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_OnErrShow'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Index' rs:number='10' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_Index'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FrameType' rs:number='11' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLFieldUse' rs:basecolumn='B_FrameType'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row B_ItemID='1038' B_ObjectID='12B013' B_FieldName='B_Qty' B_UseFormula='0' B_IsCount='1' B_UseRule='0'
+		 B_Index='0' B_FrameType='0'/>
+	<z:row B_ItemID='1039' B_ObjectID='12B013' B_FieldName='B_BoxQty' B_UseFormula='0' B_IsCount='1' B_UseRule='0'
+		 B_Index='0' B_FrameType='0'/>
+	<z:row B_ItemID='1040' B_ObjectID='12B013' B_FieldName='B_Sum' B_UseFormula='1' B_Formula='[B_Qty] * [B_Price]'
+		 B_IsCount='1' B_UseRule='0' B_Index='0' B_FrameType='0'/>
+</rs:data>
+</xml>

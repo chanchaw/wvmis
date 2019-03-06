@@ -1,0 +1,227 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true' rs:ReshapeName='DSRowset1_14'>
+		<s:AttributeType name='B_ItemID' rs:number='1' rs:basecatalog='WVAccount' rs:basetable='G_BLSFormTools' rs:basecolumn='B_ItemID'
+			 rs:keycolumn='true' rs:autoincrement='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ObjectID' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_ObjectID'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_BandIndex' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_BandIndex'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ToolIndex' rs:number='4' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_ToolIndex'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FieldName' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_FieldName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Caption' rs:number='6' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Caption'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_SubObject' rs:number='7' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_SubObject'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_CtlName' rs:number='8' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_CtlName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Width' rs:number='9' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Width'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Height' rs:number='10' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Height'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_EdgeHeight' rs:number='11' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_EdgeHeight'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DockingArea' rs:number='12' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_DockingArea'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Enabled' rs:number='13' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Enabled'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Unique' rs:number='14' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_Unique'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_AutoFillParent' rs:number='15' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_AutoFillParent'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_PYTo' rs:number='16' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_PYTo'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_NotNull' rs:number='17' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLSFormTools' rs:basecolumn='B_NotNull'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row B_ItemID='1116' B_ObjectID='11S004' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='1117' B_ObjectID='11S006' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='1118' B_ObjectID='11S007' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='1119' B_ObjectID='11S005' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='1121' B_ObjectID='11S008' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='1122' B_ObjectID='11S009' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='1123' B_ObjectID='11S010' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='2122' B_ObjectID='11s011' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='3122' B_ObjectID='11S012' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='3124' B_ObjectID='11S013' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='3125' B_ObjectID='11S014' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='3126' B_ObjectID='11S015' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='3127' B_ObjectID='11S016' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='3128' B_ObjectID='11S017' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='3129' B_ObjectID='11S018' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='3130' B_ObjectID='11S019' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4126' B_ObjectID='11S020' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4127' B_ObjectID='11S021' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4128' B_ObjectID='11S022' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4129' B_ObjectID='11S023' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4130' B_ObjectID='11S024' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4131' B_ObjectID='11S025' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4132' B_ObjectID='11S026' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4133' B_ObjectID='11S027' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4134' B_ObjectID='11S028' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4136' B_ObjectID='11S029' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4137' B_ObjectID='11S030' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4138' B_ObjectID='11S031' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4139' B_ObjectID='11S032' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4140' B_ObjectID='11S033' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4141' B_ObjectID='11S034' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4142' B_ObjectID='11S035' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4143' B_ObjectID='11S036' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='4144' B_ObjectID='11S037' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5142' B_ObjectID='11S038' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5145' B_ObjectID='11S039' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5147' B_ObjectID='11S040' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5148' B_ObjectID='11S041' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5151' B_ObjectID='11S042' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5152' B_ObjectID='11S043' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5153' B_ObjectID='11S044' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5154' B_ObjectID='11S045' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5155' B_ObjectID='11S046' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5156' B_ObjectID='11S047' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5157' B_ObjectID='11S048' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5158' B_ObjectID='11S049' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5159' B_ObjectID='11S050' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5160' B_ObjectID='11S051' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+	<z:row B_ItemID='5161' B_ObjectID='11S052' B_BandIndex='0' B_ToolIndex='0' B_FieldName='B_SID' B_Caption='计量单位'
+		 B_SubObject='23B001' B_CtlName='B_SID' B_Width='3500' B_Height='300' B_EdgeHeight='0' B_DockingArea='0' B_Enabled='0'
+		 B_Unique='0'/>
+</rs:data>
+</xml>

@@ -1,0 +1,11 @@
+加载本地配置文件
+初始化硬件信息
+创建数据库链接
+检测客户端版本
+登录
+进入TDBGrid1_DataSourceChanged
+即将退出TDBGrid1_DataSourceChanged
+进入了TDBGrid1_RowColChange
+即将退出TDBGrid1_RowColChange
+进入了TDBGrid1_RowColChange
+即将退出TDBGrid1_RowColChange

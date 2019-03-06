@@ -1,0 +1,118 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30' rs:updatable='true' rs:ReshapeName='DSRowset1_134'>
+		<s:AttributeType name='B_ItemID' rs:number='1' rs:basecatalog='WVAccount' rs:basetable='G_BLField' rs:basecolumn='B_ItemID'
+			 rs:keycolumn='true' rs:autoincrement='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ObjectID' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_ObjectID'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FieldName' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_FieldName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_CnName' rs:number='4' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_CnName'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_GridWidth' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_GridWidth'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Alignment' rs:number='6' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_Alignment'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_IsQuantity' rs:number='7' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_IsQuantity'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_NotNull' rs:number='8' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_NotNull'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Locked' rs:number='9' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_Locked'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_FieldFormat' rs:number='10' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_FieldFormat'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_BackColor' rs:number='11' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_BackColor'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ForeColor' rs:number='12' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_ForeColor'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ControlValue' rs:number='13' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_ControlValue'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DisplayField' rs:number='14' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_DisplayField'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_ItemValues' rs:number='15' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_ItemValues'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2147483647' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_SQL' rs:number='16' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_SQL'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='2147483647' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_DropWidth' rs:number='17' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_DropWidth'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_MaxComboItems' rs:number='18' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_MaxComboItems'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_Split' rs:number='19' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_Split'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_SubObjectID' rs:number='20' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_SubObjectID'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='B_EditMask' rs:number='21' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='WVAccount'
+			 rs:basetable='G_BLField' rs:basecolumn='B_EditMask'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row B_ItemID='4309' B_ObjectID='12B013' B_FieldName='B_ItemIDB' B_CnName='订单号' B_GridWidth='1000' B_Alignment='2'
+		 B_Locked='0'/>
+	<z:row B_ItemID='4310' B_ObjectID='12B013' B_FieldName='B_GoodsNameAlias' B_CnName='品名' B_GridWidth='1000'
+		 B_Alignment='2' B_Locked='0'/>
+	<z:row B_ItemID='4311' B_ObjectID='12B013' B_FieldName='B_Width' B_CnName='门幅' B_GridWidth='1000' B_Alignment='2'
+		 B_Locked='0'/>
+	<z:row B_ItemID='4312' B_ObjectID='12B013' B_FieldName='B_weight' B_CnName='克重' B_GridWidth='1000' B_Alignment='2'
+		 B_Locked='0'/>
+	<z:row B_ItemID='4313' B_ObjectID='12B013' B_FieldName='B_Color' B_CnName='颜色' B_GridWidth='1000' B_Alignment='2'
+		 B_Locked='0'/>
+	<z:row B_ItemID='4314' B_ObjectID='12B013' B_FieldName='B_SeHao' B_CnName='色号' B_GridWidth='1000' B_Alignment='2'
+		 B_Locked='0'/>
+	<z:row B_ItemID='4315' B_ObjectID='12B013' B_FieldName='B_Alias' B_CnName='客户别名' B_GridWidth='1600'
+		 B_Alignment='2' B_Locked='0'/>
+	<z:row B_ItemID='4316' B_ObjectID='12B013' B_FieldName='B_PS' B_CnName='匹数' B_GridWidth='1000' B_Alignment='2'
+		 B_IsQuantity='-1' B_Locked='0'/>
+	<z:row B_ItemID='4317' B_ObjectID='12B013' B_FieldName='B_GJ' B_CnName='公斤' B_GridWidth='1000' B_Alignment='2'
+		 B_IsQuantity='-1' B_Locked='0' B_FieldFormat='0.0'/>
+	<z:row B_ItemID='4318' B_ObjectID='12B013' B_FieldName='B_MS' B_CnName='米数' B_GridWidth='1000' B_Alignment='2'
+		 B_IsQuantity='-1' B_Locked='0' B_FieldFormat='0.0'/>
+	<z:row B_ItemID='4319' B_ObjectID='12B013' B_FieldName='B_MemoDetail' B_CnName='备注' B_GridWidth='2000' B_Alignment='2'
+		 B_Locked='0'/>
+</rs:data>
+</xml>

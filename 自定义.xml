@@ -1,0 +1,156 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:updatable='true'>
+		<s:AttributeType name='Date' rs:number='1' rs:write='true'>
+			<s:datatype dt:type='dateTime' rs:dbtype='variantdate' dt:maxLength='16' rs:precision='0' rs:fixedlength='true'
+			 rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='DataBase' rs:number='2' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='ObjectID' rs:number='3' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='ObjectName' rs:number='4' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='KeyField' rs:number='5' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='Type' rs:number='6' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='FileName1' rs:number='7' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='FileName2' rs:number='8' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='FileName3' rs:number='9' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='FileName4' rs:number='10' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='FileName5' rs:number='11' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='100' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='Table1' rs:number='12' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='Table2' rs:number='13' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='Table3' rs:number='14' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='Table4' rs:number='15' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='Table5' rs:number='16' rs:write='true'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='50' rs:precision='0' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<rs:insert>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B040' ObjectName='白坯发货' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B041' ObjectName='深加工入库' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B042' ObjectName='色布发货' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B043' ObjectName='原料发货单据' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B044' ObjectName='色布客户退货' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B045' ObjectName='染厂退货' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B046' ObjectName='原料退货' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B047' ObjectName='白坯调拨' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B048' ObjectName='原料入库叙事表'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B049' ObjectName='原料库存表' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B050' ObjectName='加工户收发存汇总'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B051' ObjectName='原料收发存汇总'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B052' ObjectName='原料加工户退货'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B053' ObjectName='原料调拨' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B054' ObjectName='原料发货序时表'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B055' ObjectName='白坯入库序时表'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B056' ObjectName='白坯发货序时表'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B057' ObjectName='白坯库存序时表'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B058' ObjectName='白坯收发存汇总'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B059' ObjectName='色布入库序时表'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B060' ObjectName='色布发货序时表'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B061' ObjectName='回修色布入库' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B062' ObjectName='色布回修退染厂'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B063' ObjectName='色布回修报表' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B064' ObjectName='原料外发加工汇总明细'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B065' ObjectName='原料上年度库存'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B066' ObjectName='白坯上年度库存'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B067' ObjectName='色布上年度库存'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B068' ObjectName='白坯采购入库' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B069' ObjectName='白坯采购退货' KeyField='B_ObjectID'
+			 Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4='' FileName5=''
+			 Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+		<z:row Date='2018-02-25T14:28:09' DataBase='WVAccount' ObjectID='19B070' ObjectName='白坯采购序时表'
+			 KeyField='B_ObjectID' Type='自定义对象' FileName1='自定义G_CustomObject' FileName2='' FileName3='' FileName4=''
+			 FileName5='' Table1='G_CustomObject' Table2='' Table3='' Table4='' Table5=''/>
+	</rs:insert>
+</rs:data>
+</xml>
